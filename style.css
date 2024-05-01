@@ -1,0 +1,26 @@
+/*importing the font*/
+@import
+url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+body{
+background-color:#184353;/*background color for the entire page*/
+font-family: 'Seymour One', sans-serif;/*we set the font for the entire
+page*/
+}
+table{
+margin-left:auto;/*centering the table*/
+margin-right:auto;/*centering the table*/
+margin-top:60px;/*margin from the top*/
+}
+.gameButton{
+width:150px;
+height:150px;
+border:none;/*button border disabled*/
+background-color:#ffffff;
+color:#000000;
+font-size:80px;
+font-family: 'Seymour One', sans-serif;
+}
+.gameButton:hover{
+cursor:pointer;/*mouse cursor change on hover*/
+opacity:0.8;/*change the transparency of the element*/
+}
